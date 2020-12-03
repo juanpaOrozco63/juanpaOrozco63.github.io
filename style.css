@@ -200,7 +200,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/banner.png") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -255,7 +255,7 @@ section .title::after {
 /* about section styling */
 
 .about .title::after {
-    content: "who i am";
+    content: "Who I am";
 }
 
 .about .about-content .left {
@@ -315,6 +315,11 @@ section .title::after {
     background: #111;
 }
 
+.about,
+.skills {
+    background: url("images/banner2.jpg");
+}
+
 .services .title::before,
 .teams .title::before {
     background: #fff;
@@ -323,7 +328,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
     background: #111;
-    content: "what i provide";
+    content: "What I provide";
 }
 
 .services .serv-content .card {
@@ -368,7 +373,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-    content: "what i know";
+    content: "What I know";
 }
 
 .skills .skills-content .column {
@@ -444,7 +449,7 @@ section .title::after {
 }
 
 .skills-content .right .js::before {
-    width: 50%;
+    width: 60%;
 }
 
 .skills-content .right .java::before {
@@ -463,6 +468,10 @@ section .title::after {
     width: 70%;
 }
 
+.skills-content .right .firebase::before {
+    width: 40%;
+}
+
 
 /* contact section styling */
 
@@ -474,7 +483,7 @@ section .title::after {
 .contact .title::after,
 .teams .title::after {
     background: #111;
-    content: "get in touch";
+    content: "Get in touch";
 }
 
 .contact .contact-content .column {
@@ -541,7 +550,7 @@ section .title::after {
 /* footer section styling */
 
 footer {
-    background: #fff;
+    background: url("images/banner2.jpg");
     padding: 15px 23px;
     color: #111;
     text-align: center;
@@ -554,6 +563,16 @@ footer span a {
 
 footer span a:hover {
     text-decoration: underline;
+}
+
+footer .footer-items a {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer .footer-items .items-footer {
+    color: #254b9c;
 }
 
 
@@ -642,7 +661,7 @@ footer span a:hover {
         margin-bottom: 35px;
     }
     .rowsr {
-        margin-top: -45px;
+        margin-top: -25px;
     }
 }
 
@@ -663,7 +682,7 @@ footer span a:hover {
         width: 100%;
     }
     .rowsr {
-        margin-top: -45px;
+        margin-top: -25px;
     }
 }
 
@@ -679,7 +698,7 @@ footer span a:hover {
         font-size: 19px;
     }
     .rowsr {
-        margin-top: -35px;
+        margin-top: -25px;
     }
     .scroll-up-btn {
         right: 15px;
