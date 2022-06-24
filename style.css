@@ -461,7 +461,7 @@ section .title::after {
 }
 
 .skills-content .right .postgress::before {
-    width: 40%;
+    width: 50%;
 }
 
 .skills-content .right .github::before {
