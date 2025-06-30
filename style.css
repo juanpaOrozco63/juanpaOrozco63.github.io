@@ -439,7 +439,7 @@ section .title::after {
     background: #254b9c;
 }
 
-.skills-content .right .html::before {
+.skills-content .right .nestjs::before {
     width: 100%;
 }
 
@@ -456,19 +456,19 @@ section .title::after {
 }
 
 .skills-content .right .angular::before {
-    width: 70%;
+    width:100%;
 }
 
 .skills-content .right .postgress::before {
     width: 50%;
 }
 
-.skills-content .right .github::before {
-    width: 70%;
+.skills-content .right .mongodb::before {
+    width: 80%;
 }
 
 .skills-content .right .firebase::before {
-    width: 40%;
+    width: 60%;
 }
 
 
